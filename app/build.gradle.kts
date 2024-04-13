@@ -190,3 +190,6 @@ dependencies {
     // 引入MultiDex依赖
     implementation(app.androidx.multidex)
 }
+rmdir lib_mangax/src/main/jni/OpenCC
+git init
+git submodule add -f --name OpenCC -b master https://github.com/BYVoid/OpenCC.git lib_mangax/src/main/jni/OpenCC
